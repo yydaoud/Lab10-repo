@@ -18,7 +18,7 @@ public class testSelectionSort
     
     public void testPositive(){
         int[] arr1 = new int[5];
-        arr1[0] = 8;
+        arr1[0] = 80;
         arr1[1] = 9;
         arr1[2] = 7;
         arr1[3] = 10;
@@ -27,9 +27,9 @@ public class testSelectionSort
         int[] Sortedarr1 = new int[5];
         Sortedarr1[0] = 2;
         Sortedarr1[1] = 7;
-        Sortedarr1[2] = 8;
-        Sortedarr1[3] = 9;
-        Sortedarr1[4] = 10;
+        Sortedarr1[2] = 9;
+        Sortedarr1[3] = 10;
+        Sortedarr1[4] = 80;
 
         Assert.assertArrayEquals(sorter.basicSelectionSort(arr1), Sortedarr1);
         
@@ -39,16 +39,16 @@ public class testSelectionSort
     public void testNegative()
     {
         int[] arr2 = new int[5];
-        arr2[0] = -8;
+        arr2[0] = -80;
         arr2[1] = -9;
         arr2[2] = -7;
         arr2[3] = -10;
         arr2[4] = -2;
         
         int[] Sortedarr2 = new int[5];
-        Sortedarr2[0] = -10;
-        Sortedarr2[1] = -9;
-        Sortedarr2[2] = -8;
+        Sortedarr2[0] = -80;
+        Sortedarr2[1] = -10;
+        Sortedarr2[2] = -9;
         Sortedarr2[3] = -7;
         Sortedarr2[4] = -2;
 
