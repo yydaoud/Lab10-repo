@@ -64,11 +64,11 @@ public class testSelectionSort
         arr3[0] = 8;
         arr3[1] = 9;
         arr3[2] = -7;
-        arr3[3] = -10;
+        arr3[3] = -100;
         arr3[4] = -2;
         
         int[] Sortedarr3 = new int[5];
-        Sortedarr3[0] = -10;
+        Sortedarr3[0] = -100;
         Sortedarr3[1] = -7;
         Sortedarr3[2] = -2;
         Sortedarr3[3] = 8;
@@ -81,21 +81,21 @@ public class testSelectionSort
     
     public void testDuplicates()
     {
-        int[] arr3 = new int[5];
-        arr3[0] = 8;
-        arr3[1] = 8;
-        arr3[2] = -7;
-        arr3[3] = 10;
-        arr3[4] = -2;
+        int[] arr4 = new int[5];
+        arr4[0] = 8;
+        arr4[1] = 8;
+        arr4[2] = -7;
+        arr4[3] = 10;
+        arr4[4] = -20;
         
-        int[] Sortedarr3 = new int[5];
-        Sortedarr3[0] = -7;
-        Sortedarr3[1] = -2;
-        Sortedarr3[2] = 8;
-        Sortedarr3[3] = 8;
-        Sortedarr3[4] = 10;
+        int[] Sortedarr4 = new int[5];
+        Sortedarr4[0] = -20;
+        Sortedarr4[1] = -7;
+        Sortedarr4[2] = 8;
+        Sortedarr4[3] = 8;
+        Sortedarr4[4] = 10;
 
-        Assert.assertArrayEquals(sorter.basicSelectionSort(arr3), Sortedarr3);
+        Assert.assertArrayEquals(sorter.basicSelectionSort(arr4), Sortedarr4);
         
         /** Test data contains duplicates **/
     }

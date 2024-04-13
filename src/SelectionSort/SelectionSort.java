@@ -38,10 +38,9 @@ public class SelectionSort
         int[] arr3 = new int[5];
         arr3[0] = 8;
         arr3[1] = 8;
-        arr3[2] = -7;
-        arr3[3] = 10;
-        arr3[4] = -2;
-        
+        arr3[2] = -2;
+        arr3[3] = -2;
+        arr3[4] = 8;
         int[] correct = tester.basicSelectionSort(arr3);
 
         for (int i = 0; i < correct.length; i++) {
