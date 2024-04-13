@@ -36,11 +36,11 @@ public class SelectionSort
         SelectionSort tester = new SelectionSort();
 
         int[] arr1 = new int[5];
-        arr1[0] = -8;
-        arr1[1] = -9;
-        arr1[2] = -7;
-        arr1[3] = -10;
-        arr1[4] = -1;
+        arr1[0] = -2;
+        arr1[1] = -4;
+        arr1[2] = -10;
+        arr1[3] = -111;
+        arr1[4] = -8;
         
         int[] correct = tester.basicSelectionSort(arr1);
 
