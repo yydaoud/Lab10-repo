@@ -35,14 +35,13 @@ public class SelectionSort
     {
         SelectionSort tester = new SelectionSort();
 
-        int[] arr1 = new int[5];
-        arr1[0] = -2;
-        arr1[1] = -4;
-        arr1[2] = -10;
-        arr1[3] = -111;
-        arr1[4] = -8;
-        
-        int[] correct = tester.basicSelectionSort(arr1);
+        int[] arr3 = new int[5];
+        arr3[0] = 2;
+        arr3[1] = -3;
+        arr3[2] = 0;
+        arr3[3] = -2;
+        arr3[4] = 8;
+        int[] correct = tester.basicSelectionSort(arr3);
 
         for (int i = 0; i < correct.length; i++) {
             System.out.print(correct[i] + " ");
